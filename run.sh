@@ -1,0 +1,5 @@
+python3 freqnumber.py "k=3;input=tc1.txt;output=tc1.out"
+python3 freqnumber.py "k=3;input=tc2.txt;output=tc2.out"
+python3 freqnumber.py "k=3;input=tc3.txt;output=tc3.out"
+python3 freqnumber.py "k=3;input=tc4.txt;output=tc4.out"
+python3 freqnumber.py "k=3;input=tc5.txt;output=tc5.out"

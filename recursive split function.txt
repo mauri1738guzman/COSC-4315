@@ -1,0 +1,42 @@
+We can also use filter and a lambda function to filter out the characters.
+ For example:
+
+>>> s = "H3ll0 P30P13"
+>>> filter(lambda x: x.isdigit(), s)
+    #-- This is to convert to ints 
+    map(lambda x:int(x) if x.isdigit() else x,['sam','1','dad','21'])
+
+     floating_variables = re.findall("\d+\.\d+", file_content)
+        txt_file.close()
+        floating_variables = [eval(i) for i in floating_variables]
+        print("The list is \n", floating_variables)
+        
+        #remove the floats in order to store only the ints next
+        file_content = re.sub("\d+\.\d+", '', file_content)
+        
+        print("------------------------------")
+        print("------------------------------")
+        print("Here is the floats removed: ")
+        print(file_content)
+
+        int_variables = file_content.split(' ')
+        while("" in int_variables):
+                int_variables.remove("")
+        int_variables = [eval(i) for i in int_variables]
+        print("The int variables: \n", int_variables)
+
+        print("------------------------------")
+        print("------------------------------")
+        return int_variables, floating_variables
+        
+        
+
+        //-----------------------------------------------
+        //-----------------------------------------------
+        def element_count(input_list, ele, count=0):
+    if ele in input_list:
+        count = count + 1
+        input_list.remove(ele)
+        return element_count(input_list, ele, count)
+    else:
+        return count

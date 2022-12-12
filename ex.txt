@@ -1,1 +1,0 @@
-integer: integer: integer: integer: integer: integer: integer: integer: integer: integer: integer: integer: 34 1integer: 5678 2integer: 123 6integer: 34 1integer: 5678 2integer: 123 6integer: integer: integer: integer: 34 1integer: 5678 2integer: 123 6integer: 34 1integer: 5678 2integer: 123 6
